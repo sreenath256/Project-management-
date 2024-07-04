@@ -23,3 +23,9 @@
         "@heroicons/react": "^2.1.1"
     }
 }
+
+{
+  "scripts": {
+    "postinstall": "npm install && npm run build"
+  }
+}
